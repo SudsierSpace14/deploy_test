@@ -1,0 +1,1 @@
+export const NavbarMenus = ['Nosso clube', 'Agenda', 'Academia', 'Convenios', 'Fotos', 'Informativos', 'Notícias', 'Secretaria']

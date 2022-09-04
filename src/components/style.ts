@@ -14,3 +14,9 @@ export const SmallContainer = styled.div`
     max-width: 1000px;
     margin: 0 auto;
 `
+export const Row = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+`

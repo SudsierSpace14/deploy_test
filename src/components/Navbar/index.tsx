@@ -1,9 +1,16 @@
+import { NavbarMenus } from "../../api"
+import { Menu, Nav, NavUl } from "./style"
+
 export function Navbar(){
     return(
-        <div>
-            {Array.from({ length: 10 }).map(e => (
-                <p>test</p>
-            ))}
-        </div>
+        <Nav>
+            <NavUl>
+                {NavbarMenus.map((menu, id) => (
+                    <Menu key={id} tabIndex={1}>
+                        <a href="" tabIndex={-1}>{menu}</a>
+                    </Menu>
+                ))}
+            </NavUl>
+        </Nav>
     )
 }
